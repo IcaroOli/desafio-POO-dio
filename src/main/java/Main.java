@@ -39,7 +39,7 @@ public class Main {
         System.out.println("Conteúdos Concluídos de Icaro: " + devEden.getConteudosConcluidos());
         System.out.println("XP: " + devEden.calcularTotalXP());
 
-        System.out.println(" ___________________________________________________");
+        System.out.println(" _____________________________________________________");
 
 
         Dev devIcaro = new Dev();
