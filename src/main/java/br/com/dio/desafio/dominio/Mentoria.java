@@ -2,14 +2,15 @@ package br.com.dio.desafio.dominio;
 
 import lombok.Getter;
 import lombok.Setter;
+import java.time.LocalDate;
 
 @Getter @Setter
-public class Curso extends Conteudo {
+public class Mentoria extends Conteudo {
 
-    private int cargaHoraria;
+     private LocalDate dataMentoria;
 
     @Override
     public double calcularXp() {
-        return XP_PADRAO * cargaHoraria;
+        return 0;
     }
 }
