@@ -1,6 +1,5 @@
 package br.com.dio.desafio.dominio;
 
-
 import lombok.Getter;
 import lombok.Setter;
 
