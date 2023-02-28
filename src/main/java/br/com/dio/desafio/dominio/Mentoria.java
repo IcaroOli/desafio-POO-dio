@@ -6,7 +6,7 @@ import lombok.ToString;
 
 import java.time.LocalDate;
 
-@Getter @Setter @ToString
+@Getter @Setter
 public class Mentoria extends Conteudo{
 
      private LocalDate dataMentoria;
@@ -14,5 +14,13 @@ public class Mentoria extends Conteudo{
     @Override
     public double calcularXp() {
         return XP_PADRAO + 10d;
+    }
+
+    public String toString() {
+        return "Curso{\n" +
+                "titulo='" + getTitulo() + '\'' +
+                ",\n descricao='" + getDescricao() + '\'' +
+                ",\n cargaHoraria=" + dataMentoria +
+                "\n}";
     }
 }
